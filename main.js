@@ -15,12 +15,10 @@ function updateDisplay(keyPressed) {
 }
 
 function displayTotal() {
-
- //strip off trailing operators 
-
-    // if (isNaN(display)) {
-        var x = eval(display);
-        console.log(x);
-        answerButton.value = x;
-    // }
+    // TODO strip off trailing operators 
+    if (display != ""){
+        var total = eval(display);
+        display = total.toString();
+        answerButton.value = total;
+   }
 }

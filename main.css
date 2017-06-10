@@ -12,41 +12,27 @@
   background: transparent;
 }
 
-/*button {
-    height: 4em;
-    width: 4em;
-    border: 1px solid black;
-    margin: 0;
-}*/
-
-/*.button {
-    background-color: lightgreen;
-
+body {
+    text-align: center;
 }
 
-.operation {
-    background-color: greenyellow;
-}*/
-
-/*.display {
-    height: 4em;
-    width: 12em;
-    background-color: lightgreen;
-    border: 1px solid black;
-}*/
-
-
-/*---------------------*/
 input[type="button"] {
-    height: 5em;
-    width: 5em;
-    border: 1px solid white;
+    /*height: 5em;*/
+    width: 80px;
     color: white;
     background-color: #64B255;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    margin: .5px;
+    padding: 20px;
 }
 
 #answer {
-    width: 15em; 
+    width: 242px; 
+    text-align: right;
+    /*padding-right: 20px;*/
+    /*font-size: 30px;*/
 }
 
 .operator {
@@ -54,6 +40,21 @@ input[type="button"] {
     background-color: #83C178;
 }
 
+.operator:active {
+    color: black;
+}
+
 input[class="operator"] {
+    color: gray;
     background-color: #83C178;
 }
+
+input[class="operator"]:active {
+    color: white;
+}
+
+input[id="clear"]:active,
+input[id="equal"]:active {
+    background-color: #83C178;
+}
+
