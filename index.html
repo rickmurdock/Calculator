@@ -12,21 +12,23 @@
     </head>
     <body>
         <div>
-            <input type="button" id="clear" value="C" onclick="clearAnswer()"><input type="button" id="answer" value=" " onclick="">
+            <input type="button" id="answer" value=" " onclick="">
+        </div>
+        <bdo>
+            <input type="button" id="clear" value="C" onclick="clearAnswer()"><input type="button" class="operator" value="%" onclick="updateDisplay('%')"><input type="button" class="operator" value="&#8730;" onclick="displaySquareRoot()"><input type="button" class="operator" value="/" onclick="updateDisplay('/')">
         </div>
         <div>
-            <input type="button" value="7" onclick="updateDisplay('7')"><input type="button" value="8" onclick="updateDisplay('8')"><input type="button" value="9" onclick="updateDisplay('9')"><input type="button" class="operator" value="/" onclick="updateDisplay('/')">
+            <input type="button" value="7" onclick="updateDisplay('7')"><input type="button" value="8" onclick="updateDisplay('8')"><input type="button" value="9" onclick="updateDisplay('9')"><input type="button" class="operator" value="x" onclick="updateDisplay('*')">
         </div>
                 <div>
-            <input type="button" value="4" onclick="updateDisplay('4')"><input type="button" value="5" onclick="updateDisplay('5')"><input type="button" value="6" onclick="updateDisplay('6')"><input type="button" class="operator" value="x" onclick="updateDisplay('*')">
+            <input type="button" value="4" onclick="updateDisplay('4')"><input type="button" value="5" onclick="updateDisplay('5')"><input type="button" value="6" onclick="updateDisplay('6')"><input type="button" class="operator" value="-" onclick="updateDisplay('-')">
         </div>
         <div>
-            <input type="button" value="1" onclick="updateDisplay('1')"><input type="button" value="2" onclick="updateDisplay('2')"><input type="button" value="3" onclick="updateDisplay('3')"><input type="button" class="operator" value="-" onclick="updateDisplay('-')">
+            <input type="button" value="1" onclick="updateDisplay('1')"><input type="button" value="2" onclick="updateDisplay('2')"><input type="button" value="3" onclick="updateDisplay('3')"><input type="button" class="operator" value="+" onclick="updateDisplay('+')">
         </div>
         <div>
-            <input type="button" value="0" onclick="updateDisplay('0')"><input type="button" value="." onclick="updateDisplay('.')"><input type="button" id="equal" value="=" onclick="displayTotal()"><input type="button" class="operator" value="+" onclick="updateDisplay('+')">
-        </div>
-    
+            <input type="button" id="zero" value="0" onclick="updateDisplay('0')"><input type="button" id="equal" value="." onclick="updateDisplay('.')"><input type="button" class="operator" value="=" onclick="displayTotal()">
+        </div>    
     <script src="main.js"></script>
     </body>
 </html>

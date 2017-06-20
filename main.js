@@ -35,3 +35,11 @@ function displayTotal() {
         answerButton.value = total;
    }
 }
+
+function displaySquareRoot() {
+    if (!isNaN(display)) {
+        var squareRoot = Math.sqrt(parseInt(display));
+        display = squareRoot.toString()
+        answerButton.value = squareRoot;
+    }
+}
