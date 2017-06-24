@@ -17,7 +17,6 @@ body {
 }
 
 input[type="button"] {
-    /*height: 5em;*/
     width: 80px;
     color: white;
     background-color: #64B255;
@@ -31,17 +30,6 @@ input[type="button"] {
 #answer {
     width: 323px; 
     text-align: right;
-    /*padding-right: 20px;*/
-    /*font-size: 30px;*/
-}
-
-.operator {
-    color: black;
-    background-color: #83C178;
-}
-
-.operator:active {
-    color: black;
 }
 
 input[class="operator"] {
@@ -49,19 +37,22 @@ input[class="operator"] {
     background-color: #83C178;
 }
 
-input[class="operator"]:active {
+input[class="operator"]:hover {
     color: white;
 }
 
 #zero {
     width: 161px;
 }
-input[id="clear"] {
-    background-color: #83C178;
+
+#modulus, 
+#sqrt {
+    color: white;
+    background-color: #64B255
 }
 
-input[id="clear"]:active,
-input[id="equal"]:active {
+#clear:hover,
+#modulus:hover,
+#sqrt:hover {
     background-color: #83C178;
 }
-
