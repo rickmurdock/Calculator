@@ -25,6 +25,7 @@ input[type="button"] {
     font-weight: 200;
     margin: .5px;
     padding: 20px;
+    cursor: pointer;
 }
 
 #answer {
