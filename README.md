@@ -33,6 +33,9 @@ This exercise will help you understand how to use JavaScript functions as well a
 - This project should be on your Github Account
 - Please submit the project with a URL to your Github project
 
+# Mockup
+
+![Calculator mockup](https://github.com/rickmurdock/Calculator/blob/master/calculatorMockup.png)
 
 # Hard Mode
 
