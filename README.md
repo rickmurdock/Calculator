@@ -3,7 +3,7 @@ The Iron Yard Project: Week 3 - Weekly Assignment
 
 ---
 
-View the finished project: [Javascript Calculator](javascriptcalc.surge.sh)
+View the finished project: [Javascript Calculator](http://javascriptcalc.surge.sh/)
 
 ---
 
