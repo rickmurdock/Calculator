@@ -1,6 +1,12 @@
 # Calculator
 The Iron Yard Project: Week 3 - Weekly Assignment
 
+---
+
+View the finished project: [Javascript Calculator](javascriptcalc.surge.sh)
+
+---
+
 # Build a Calculator
 
 This exercise will help you understand how to use JavaScript functions as well as to start interacting with the DOM.
